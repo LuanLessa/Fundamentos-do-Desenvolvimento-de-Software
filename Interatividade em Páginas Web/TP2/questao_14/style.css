@@ -1,0 +1,21 @@
+.azul {
+    background-color: blue;
+    color: white;
+}
+
+.vermelho {
+    background-color: red;
+    color: white;
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000;
+}

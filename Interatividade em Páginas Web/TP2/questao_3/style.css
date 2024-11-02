@@ -1,0 +1,11 @@
+.borda {border: solid 1px red;}
+
+.texto {
+    color: white;
+    font-size: 1.2em;
+}
+
+.fundo {
+    background-color: black;
+    padding: 20px;
+}

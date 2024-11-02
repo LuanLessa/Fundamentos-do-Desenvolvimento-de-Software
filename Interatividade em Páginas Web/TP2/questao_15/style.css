@@ -1,0 +1,25 @@
+.verde {
+    background-color: green;
+    color: white;
+}
+
+.vermelho {
+    background-color: red;
+    color: white;
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+button {
+    padding: 5px 10px;
+}
