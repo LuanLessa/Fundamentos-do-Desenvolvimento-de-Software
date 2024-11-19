@@ -1,15 +1,14 @@
-.accordion-content {
+/* styles.css */
+.accordion-item p {
     display: none;
-}
-
-.accordion-item.active .accordion-content {
-    display: block;
-}
-
-.accordion-title {
-    cursor: pointer;
-    padding: 10px;
-    background-color: #f1f1f1;
-    border: 1px solid #ccc;
+    /* Torna os parágrafos invisíveis inicialmente */
     margin: 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+.accordion-item.active p {
+    display: block;
+    /* Mostra o parágrafo se a div estiver ativa */
 }
