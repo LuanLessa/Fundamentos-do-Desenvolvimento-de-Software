@@ -1,7 +1,5 @@
-/* styles.css */
 .accordion-item p {
     display: none;
-    /* Torna os parágrafos invisíveis inicialmente */
     margin: 0;
     padding: 10px;
     background-color: #f9f9f9;
@@ -10,5 +8,4 @@
 
 .accordion-item.active p {
     display: block;
-    /* Mostra o parágrafo se a div estiver ativa */
 }
