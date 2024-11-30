@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 11</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Tabela com Inserção de Linhas</h1>
+
+    <button onclick="adicionarLinha()">Adicionar Linha</button>
+    <button onclick="removerPrimeiraLinha()">Remover Primeira Linha</button>
+
+    <table id="tabela">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Maria</td>
+                <td>25</td>
+                <td>São Paulo</td>
+                <td>Engenheira</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>30</td>
+                <td>Rio de Janeiro</td>
+                <td>Professor</td>
+            </tr>
+        </tbody>
+    </table>
+    <p id="mensagem"></p>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="origem" class="container">
+        <h2>Área de Origem</h2>
+        <p class="arrastavel" id="text" draggable="true">Texto Arrastável</p>
+        <div class="arrastavel" id="box" draggable="true">Box Arrastável</div>
+        <img src="https://via.placeholder.com/100" alt="Imagem Arrastável" class="arrastavel" id="image"
+            draggable="true">
+    </div>
+
+    <div id="destino" class="container">
+        <h2>Área de Destino</h2>
+    </div>
+
+    <div id="controles">
+        <button id="resetBtn">Resetar Itens</button>
+        <p id="contador">Você clicou 0 vezes</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
